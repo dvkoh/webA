@@ -1,0 +1,173 @@
+/*overall*/
+html{
+	background-color: black;
+}
+body{
+	margin: 0px;
+	font-family: "Roboto";
+	/*font-weight: bold;*/
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+
+
+
+/*nav*/
+.nav_container{
+	font-family: "Roboto Mono", monospace;
+	font-weight: bold;
+	margin: 15px 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 5px;
+	font-size: 5px;
+}
+li a:hover{
+	color: white;
+}
+.left img{
+	margin-top: 3px;
+	width: 40px;
+}
+
+
+
+/*intro*/
+.intro{
+	padding: 30px;
+	padding-bottom: 60px;
+	max-height: 100%;
+}
+.introName{
+	max-width: 80%;
+	text-align: left;
+	font-size: 80px;
+	line-height: 100px;
+	font-weight: bold;
+}
+.introText{
+	max-width: 60%;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 45px;
+}
+.idkaistA{color:#D81423;}
+.cixdA{color:#4DBA9F;}
+p a{
+	font-family: "Roboto Mono", monospace;
+	color: white;
+	font-weight: normal;
+}
+
+
+
+/*common content*/
+.contentA{
+	font-family: "Roboto";
+	font-weight: bold;
+}
+.contentA:hover{
+	/*font 갈라져나오게 ccs bard 예시*/
+	text-decoration: none;
+}
+.img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	padding: 0px;
+	padding-bottom: 50px;
+}
+/*col content*/
+.col{
+	background-color: white;	
+}
+/*soap content*/
+.soap{
+	background-color: black;
+}
+
+
+
+/*black and white*/
+.w_data{
+	font-family: "Roboto Mono", monospace;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	/*change font to sth*/
+	padding-top: 50px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	color: grey;
+}
+.w_text{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	max-width: 80%;
+	padding: 0px 30px;
+	font-size: 45px;
+	font-weight: normal;
+	line-height: 60px;
+	color: white;
+}
+.W_text a{
+	font-weight: bold;
+}
+.b_data{
+	font-family: "Roboto Mono", monospace;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	/*change font to sth*/
+	padding-top: 50px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	color: grey;
+}
+.b_text{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	max-width: 80%;
+	padding: 0px 30px;
+	font-size: 45px;
+	font-weight: normal;
+	line-height: 60px;
+	color: black;
+}
+.b_text a{
+	font-weight: bold;
+}
+
+
+
+/*Copy*/
+footer{
+	margin: 50px 20px 15px 0px;
+
+	clear: both;
+	color: grey;
+	text-align: right;
+	font-weight: normal;
+	font-size: 11px;
+}
