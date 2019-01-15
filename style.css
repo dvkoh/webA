@@ -1,0 +1,151 @@
+/*overall*/
+html{
+	background-color: black;
+	cursor: url(index/cursor.png), none;
+}
+body{
+	margin: 0px;
+	font-family: "Roboto";
+	color: white;
+}
+a{text-decoration: none;color: white;}
+a:hover{text-decoration: underline;text-decoration-style: wavy;}
+
+
+
+/*nav*/
+nav{
+	font-family: "Roboto mono", monospace;
+	font-weight: 500;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 30px;
+}
+.left img{width: 60px;}
+
+
+
+/*intro*/
+.intro{
+	height: 85vh;
+	padding-left: 60px;
+	display: flex;
+	margin-bottom: 100px;
+}
+.intro-name{
+	align-self: flex-end;
+	font-size: 80px;
+	line-height: 70px;
+	font-weight: bolder;
+}
+
+
+
+/*project thumbnails*/
+.thumb{}
+.img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	padding: 0px 0px 100px 0px;
+}
+.data{
+	font-family: "Roboto Mono", monospace;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	padding-top: 50px;
+	font-size: 20px;
+	color: grey;
+}
+.text{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	max-width: 80%;
+	font-size: 45px;
+	font-weight: normal;
+	line-height: 65px;
+}
+
+
+
+/*foot grid*/
+.foot-grid{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	padding: 20px;
+}
+.projects{text-align: center;margin: 40px 0px 0px 15px;}
+.projects img{width: 80px;}
+
+
+
+/*Copy*/
+footer{
+	margin: 50px 20px 15px 0px;
+	clear: both;
+	color: grey;
+	text-align: right;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+
+
+
+/*iphone67*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+
+  	/*nav*/
+	nav{
+		margin: 30px 50px;
+		font-size: 1.7em;
+	}
+	.left img{width: 120px;}
+
+
+	/*intro*/
+	.intro{
+		height: 85vh;
+		padding-left: 60px;
+		display: flex;
+		margin-bottom: 100px;
+	}
+	.intro-name{
+		align-self: flex-end;
+		font-size: 150px;
+		line-height: 140px;
+		font-weight: bolder;
+	}
+
+
+	/*project thumbnails*/
+	.data{
+		padding-top: 70px;
+		font-size: 10px;
+		color: grey;
+	}
+
+
+	/*footer*/
+  	footer{
+		margin: 50px 20px 15px 0px;
+		clear: both;
+		color: grey;
+		text-align: right;
+		font-weight: normal;
+		font-size: 6px;
+	}
+}

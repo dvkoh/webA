@@ -1,0 +1,109 @@
+/*overall*/
+html{
+	background-color: black;
+	opacity: .9;
+	cursor: url(index/cursor.png), none;
+}
+body{
+	padding: 0px;
+	margin: 20px 20px 0px 40px;
+	font-family: "Roboto Mono", monospace;
+	font-weight: bold;
+	color: white;	
+}
+
+.nav{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 60px;
+}
+
+h1{
+	font-size: 90px;
+	line-height: 100px;
+	margin-bottom: 450px;
+}
+
+/*read*/
+.text{
+	font-weight: normal;
+}
+.container{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.date{
+}
+.book{
+	width: 600px;
+	height: auto;
+	margin: 0px 100px 0px 50px;
+}
+.toRead{
+	margin-top: 150px;
+	margin-bottom: 30px;
+	line-height: 40px;
+}
+
+
+
+/*do*/
+.container_do{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+}
+.do{
+	/*border: 1px solid white;*/
+	padding: 10px 50px 50px 10px;
+	/*margin: 50px;*/
+}
+.l{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}/*
+.m{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.s{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}*/
+
+
+
+footer{
+	margin: 50px 20px 15px 0px;
+
+	clear: both;
+	color: grey;
+	text-align: right;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+
+
+/*iphone67*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  	h1{
+		font-size: 120px;
+		line-height: 130px;
+		margin-bottom: 450px;
+	}
+
+  	.right img{width: 120px;}
+
+}

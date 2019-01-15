@@ -1,0 +1,73 @@
+/*overall*/
+html{
+	background-color: white;
+	cursor: url(index/cursor.png), none;
+}
+body{
+	margin: 0px;
+	font-family: "Roboto";
+	color: black;
+}
+a{text-decoration: none;color: black;}
+a:hover{text-decoration: underline;text-decoration-style: wavy;}
+
+
+/*nav*/
+nav{
+	font-family: "Roboto mono", monospace;
+	font-weight: 500;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 30px;
+}
+.left img{width: 60px;}
+
+
+
+/*intro*/
+.intro{
+	height: 85vh;
+	padding-left: 60px;
+	display: flex;
+	/*margin-bottom: 100px;*/
+}
+.intro-name{
+	align-self: flex-end;
+	font-size: 80px;
+	line-height: 70px;
+	font-weight: 700;
+}
+section{
+	position: relative;
+}
+.intro-text{
+	/*align-self: flex-start;*/
+	position: absolute;
+	top: 7%;
+	right: 8%;
+	border: 6px solid black;
+	padding: 30px;
+	width: 40%;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 500;
+	background-color: rgba(255,255,255,.8);
+}
+.intro-link{
+	padding-left: 60px;	
+	font-size: 80px;
+	line-height: 70px;
+	font-weight: bolder;
+}
+
+/*Copy*/
+footer{
+	margin: 50px 20px 15px 0px;
+	clear: both;
+	color: grey;
+	text-align: right;
+	font-weight: normal;
+	font-size: 11px;
+}
